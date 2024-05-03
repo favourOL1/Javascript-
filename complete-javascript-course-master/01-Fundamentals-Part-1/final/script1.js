@@ -398,7 +398,7 @@ console.log(population)
         }else{
                 console.log('Not a valid day')
         }
-         */
+        
 
         // Statements and expressions
 
@@ -408,6 +408,51 @@ console.log(population)
 
         age <= 18 ? console.log("i like to drink whine"):
         console.log('i like to drink water')
+
+        const drink =  age <= 18 ? 'wine ': 'water';
+        console.log(drink)
+
+        let drink2;
+        if (age >= 18 ){
+                drink2 = 'i like to drink water'
+        } else{
+                drink2 = "i like to drink whine"
+        }
+        console.log(drink2);
+
+        console.log(`i like to drink water ${ age >= 18 ? 'wine ': 'water'}`)
+        
+        Challenge 
+        // const bill = 275;
+        // const tip = bill  <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+        // console.log(tip)
+        // console.log( `The bill was ${bill}, the tip was ${tip}, and the 
+        // total value ${bill + tip }`)
+
+        // const bill = 40;
+        // const tip = bill  <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+        // console.log(tip)
+        // console.log( `The bill was ${bill}, the tip was ${tip}, and the 
+        // total value ${bill + tip }`)
+
+        const bill = 430;
+        const tip = bill  <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+        console.log(tip)
+        console.log( `The bill was ${bill}, the tip was ${tip}, and the 
+        total value ${bill + tip }`);
+         */
+
+        //javascript releases : ES5, ES6+ AND ESNEXT
+        //javascript has backward compatibility
+
+        //How to use mordern javascript
+        // during development: simply the latest Google chrome!
+        //during production: use babel to transpile and polyfill your 
+        //code (converting to ES5 to be compartible for all user)
+
+        // mordern javascript from the begining
+
+
 
 
 
