@@ -132,7 +132,7 @@ TEST DATA 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
 HINT: To calculate average of 3 values, add them all together and divide by 3
 HINT: To check if number A is at least double number B, check for A >= 2 * B. Apply this to the team's average scores 😉
 
-GOOD LUCK 😀
+GOOD LUCK    😀
 */
 
 /*
